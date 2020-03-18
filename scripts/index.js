@@ -72,7 +72,7 @@ const postListHtml = allPosts.map(post => {
 
   return `
     <div class="index-post-wrapper">
-      <span class="index-post-date">${date}</span>
+      <span class="date">${date}</span>
       <a class="index-post-title" href="./${htmlFileName}">${title}</a>
       <a href="/${htmlFileName}">Read more</a>
     </div>
