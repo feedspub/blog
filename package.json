@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "feed": "^4.1.0",
     "markdown-it": "^10.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "build": "node scripts/index.js"
+    "build": "node scripts/index.js",
+    "deploy": "npm run build && serverless --debug"
   },
   "repository": {
     "type": "git",

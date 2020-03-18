@@ -76,8 +76,8 @@ header {
 }
 
 .ico-title img {
-  width: 20px;
-  padding-right: 10px;
+  width: 30px;
+  padding-right: 5px;
   display: inline-block;
 }
 
@@ -107,8 +107,8 @@ header a {
 }
 
 .index-post-date {
-  font-weight: lighter;
   font-size: smaller;
+  color: #888;
 }
 
 footer {

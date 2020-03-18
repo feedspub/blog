@@ -6,5 +6,4 @@ website:
   inputs:
     code:
       src: public
-      hook: npm run build
     domain: blog.feeds.pub
