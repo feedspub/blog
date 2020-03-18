@@ -11,7 +11,9 @@ const indexWrapperPath = path.join(wrapperDir, 'index.html');
 const cssPath = path.join(wrapperDir, 'common.css');
 const destDir = '/Users/timqian/Documents/Code/feeds-pub/blog/public';
 
-fs.copyFileSync(cssPath, path.join(destDir, 'common.css'))
+// copy assets
+fs.copyFileSync(cssPath, path.join(destDir, 'common.css'));
+fs.copyFileSync(cssPath, path.join(destDir, 'favicon.ico'));
 
 const postWrapper = fs.readFileSync(postWrapperPath, 'utf-8');
 
@@ -66,8 +68,6 @@ const postListHtml = allPosts.map(post => {
     title,
     date,
   } = post;
-
-
 
   return `
     <div class="index-post-wrapper">
