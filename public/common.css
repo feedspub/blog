@@ -1,0 +1,93 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+}
+
+h1 {
+  margin: 1rem 0 .5rem 0;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+  color: #555;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  color: #888;
+}
+
+code {
+  padding: 2px 4px;
+}
+
+pre {
+  border-left: 2px solid #48bb78;
+  padding: 1em;
+}
+
+a {
+  color: #48bb78;
+}
+
+.date {
+  font-size: smaller;
+  color: #888;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white;
+  width: 100%;
+  background-color: #1a202c;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin: .5rem 1rem;
+}
+
+.follow-btn {
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.index-post-container {
+  margin-top: 2rem;
+  min-height: 70vh;
+}
+
+.index-post-title {
+  text-decoration: none;
+  font-size: xx-large;
+  font-weight: bolder;
+  display: block;
+}
+
+footer {
+  text-align: right;
+}
+
+footer a {
+  color: #1a202c;
+}
