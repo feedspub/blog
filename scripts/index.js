@@ -1,8 +1,11 @@
 const fs = require('fs');
 const path = require('path');
-const MarkdownIt = require('markdown-it');
+const md = require('markdown-it')({
+  html: true,
+  linkify: true,
+  typographer: true
+});
 const { Feed } = require('feed');
-const md = new MarkdownIt();
 
 const baseURL = 'https://blog.feeds.pub';
 const blogTitle = "Feeds Pub Blog";
@@ -58,7 +61,12 @@ const allPosts = blogPaths.map(mdFileName => {
     title,
     date,
   }
-}).filter(post => !!post);
+})
+.filter(post => !!post)
+.sort((a, b) => {
+  return new Date(b.date) - new Date(a.date);
+});
+
 
 // Generate index.html
 const indexWrapper = fs.readFileSync(indexWrapperPath, 'utf-8');

@@ -15,19 +15,30 @@ h1 {
   margin: .5rem 0;
   padding: 0;
   font-weight: 500;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 h2 {
-  margin-top: 1em;
-  padding-top: 1em;
+  margin-top: .7em;
+  padding-top: .7em;
+  padding-bottom: .2em;
   color: #555;
   font-weight: 400;
-  font-size: 2em;
+  font-size: 1.7em;
+  border-bottom: solid 1px #eaecef;
+}
+
+h3 {
+  margin-top: .5em;
+  padding-top: .5em;
+  color: #555;
+  font-weight: 700;
+  font-size: 1.1em;
 }
 
 h1,
 h2,
+h3,
 strong {
   color: #333;
 }
@@ -42,13 +53,25 @@ code {
   padding: 2px 4px;
 }
 
+blockquote {
+  border-left: .25em solid #dfe2e5;
+  color: #6a737d;
+  padding: 0 1em;
+  margin-left: 0;
+}
+
 pre {
-  border-left: 2px solid #48bb78;
+  /* border-left: 2px solid #48bb78; */
   padding: 1em;
+  overflow:scroll;
 }
 
 a {
   color: #48bb78;
+}
+
+img {
+  max-width: 100%;
 }
 
 .date {
@@ -108,13 +131,17 @@ header a {
   min-height: 50vh;
 }
 
+.index-post-wrapper {
+  margin-bottom: 2rem;
+}
+
 .index-post-title {
   text-decoration: none;
   font-weight: bolder;
   display: block;
   color: #333;
   font-weight: 500;
-  font-size: 2.5em;
+  font-size: 1.8em;
 }
 
 

@@ -14,4 +14,4 @@ None of the current RSS readers have these features. And I think other people mi
 
 So after spending about 3 month in designing and coding, Feeds Pub is here🎉
 
-The ultimate goal of Feeds Pub is to improve people's reading experience. Make it easier to find good feed to read and follow.
+The ultimate goal of Feeds Pub is to improve people's reading experience. Make it easier to find good stuff to read and follow.

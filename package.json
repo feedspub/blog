@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "build": "node scripts/index.js",
-    "deploy": "npm run build && serverless --debug"
+    "deploy": "npm run build && serverless --org timqian --app feeds-pub-blog"
   },
   "repository": {
     "type": "git",
