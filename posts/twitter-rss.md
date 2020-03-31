@@ -1,6 +1,6 @@
 ---
 title: Twitter RSS feeds
-date: 2020-03-26
+date: 2020-03-21
 ---
 
 Twitter don't offer RSS officially, but still there are some ways to generate it. We will introduce a simple way here by using [RSSHub](https://rsshub.app).

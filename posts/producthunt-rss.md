@@ -1,6 +1,6 @@
 ---
 title: ProductHunt RSS feeds
-date: 2020-03-26
+date: 2020-03-25
 ---
 
 > Official doc: https://help.producthunt.com/en/articles/484970-does-product-hunt-have-an-rss-feed

@@ -1,6 +1,6 @@
 ---
 title: Introducing Feeds Pub
-date: 2020-03-21
+date: 2020-03-31
 ---
 
 [Feeds Pub](https://feeds.pub) is an RSS reader and network.

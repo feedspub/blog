@@ -1,6 +1,6 @@
 ---
 title: Reddit RSS feeds
-date: 2020-03-26
+date: 2020-03-22
 ---
 
 > Official doc: https://www.reddit.com/wiki/rss

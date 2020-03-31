@@ -1,6 +1,6 @@
 ---
 title: Medium RSS feeds
-date: 2020-03-26
+date: 2020-03-28
 ---
 
 > Official doc: https://help.medium.com/hc/en-us/articles/214874118-RSS-feeds

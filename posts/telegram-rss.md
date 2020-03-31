@@ -1,6 +1,6 @@
 ---
 title: Telegram RSS feeds
-date: 2020-03-26
+date: 2020-03-24
 ---
 
 Telegram don't offer RSS officially, but still there are some ways to generate it. We will introduce a simple way here.
