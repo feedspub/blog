@@ -12,6 +12,6 @@ It starts from two simple needs of myself:
 
 None of the current RSS readers have these features. And I think other people might also have these needs.
 
-So after spending about 3 month in designing and coding, Feeds Pub is here🎉
+So after spending about 3 months in designing and coding, Feeds Pub is here🎉
 
 The ultimate goal of Feeds Pub is to improve people's reading experience. Make it easier to find good stuff to read and follow.
