@@ -120,8 +120,8 @@ header a {
 }
 
 .follow-btn {
-  border: 1px solid #e2e8f0;
-  border-radius: 4px;
+  /* border: 1px solid #e2e8f0; */
+  /* border-radius: 4px; */
   padding-left: .5rem;
   padding-right: .5rem;
 }

@@ -26,5 +26,3 @@ You can now import a batch of feeds by upload an OPML file now.
 
 Feeds Pub is in its early stage, any feedback is very welcomed. You can suggest a new feature or report a bug on [GitHub](https://github.com/feedspub/feedspub-feedback/issues) or [Telegram](https://t.me/feedspub_chat) or [Product Hunt](https://www.producthunt.com/posts/feeds-pub)
 
-
-<a href="https://www.producthunt.com/posts/feeds-pub?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-feeds-pub" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=192893&theme=dark" alt="Feeds Pub - A social RSS feed reader | Product Hunt Embed" style="width: 250px; height: 54px; position: fixed; right: 0px; bottom: 0px;" width="250px" height="54px" /></a>
